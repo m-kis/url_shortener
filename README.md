@@ -10,6 +10,7 @@ Installation
 Pour utiliser cet outil, vous devez d'abord installer les dépendances pyshorteners et flask. Vous pouvez les installer avec pip :
 
 ```pip install pyshorteners flask```
+
 Ensuite, clonez ce dépôt sur votre machine locale :
 
 ```git clone https://github.com//m-kis/url_shortener.git```
