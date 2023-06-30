@@ -6,13 +6,16 @@
     <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
 </head>
 <body>
-    <h1>M-KIS URL Shortener</h1>
-    <form method="POST">
-        <input type="text" name="url" placeholder="Enter your URL here">
-        <input type="submit" value="Shorten!">
-    </form>
-    {% if short_url %}
-    <p>Your shortened URL is: <a href="{{ short_url }}">{{ short_url }}</a></p>
-    {% endif %}
+    <div class="container">
+        <img class="logo" src="{{ url_for('static', filename='Logo-M-KIS.png') }}" alt="Logo">
+        <h1>M-KIS URL Shortener</h1>
+        <form method="POST">
+            <input type="text" name="url" placeholder="Enter your URL here">
+            <input type="submit" value="Shorten!">
+        </form>
+        {% if short_url %}
+        <p>Your shortened URL is: <a href="{{ short_url }}">{{ short_url }}</a></p>
+        {% endif %}
+    </div>
 </body>
 </html>
