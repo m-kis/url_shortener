@@ -1,0 +1,19 @@
+body {
+    background-color: #F5F5F5;
+    font-family: 'Montserrat', sans-serif;
+    color: #08376B;
+}
+
+h1 {
+    color: #08376B;
+    font-family: 'Tenor Sans', sans-serif;
+}
+
+form {
+    margin-top: 20px;
+}
+
+input[type="text"] {
+    margin-top: 10px;
+    display: block;
+}
