@@ -17,8 +17,8 @@ Ensuite, clonez ce dépôt sur votre machine locale :
 Utilisation
 Pour utiliser cet outil, naviguez dans le répertoire du projet et exécutez le script Python :
 
-```cd url-shortener
-python app.py```
+```cd url-shortener```
+```python app.py```
 
 Cela lancera le serveur Flask sur votre machine locale. Vous pouvez accéder à l'interface utilisateur web en naviguant vers http://localhost:5000 dans votre navigateur.
 
